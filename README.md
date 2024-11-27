@@ -1,12 +1,48 @@
-<<<<<<< HEAD
-# React Admin Dashboard
 
-Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode
+# Role-Based Access Control (RBAC) UI
 
-Video: https://www.youtube.com/watch?v=wYpCWwD1oz0
+This is a **Frontend-only Role-Based Access Control (RBAC)** User Interface designed for managing users, roles, and permissions. It provides an intuitive dashboard where administrators can manage users, assign roles, define permissions, and view user-related data securely and efficiently.
 
-For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
-=======
-# Role-Based-Access-Control-RBAC-UI
-A modern Role-Based Access Control (RBAC) UI for managing users, roles, and permissions efficiently. Features include user management (add/edit/delete, assign roles, toggle status), role management (define/edit roles, assign permissions), dynamic permissions, and optional mock API integration. Designed for scalability and ease of use.
->>>>>>> 47fbf38367629069328ce73e487adeae3602047e
+## Features
+
+- **User Management:**
+  - View and manage users.
+  - Add, edit, or delete users.
+  - Assign roles and manage user status (Active/Inactive).
+
+- **Role Management:**
+  - Define and edit roles.
+  - Assign permissions to roles (Read, Write, Delete, etc.).
+
+- **Dynamic Permissions:**
+  - Assign or modify permissions for roles with a user-friendly interface.
+  - Clear display of role permissions for easy modification.
+
+- **Responsive Design:**
+  - The UI is designed to be fully responsive for both desktop and mobile screens.
+
+## Technologies Used
+
+- **Frontend:**
+  - React.js (for building the UI)
+  - Material-UI (for pre-built components and styling)
+  - React Router (for navigation)
+
+- **State Management:**
+  - React's built-in state management (Context API or useState, useReducer)
+
+- **Styling:**
+  - CSS/SCSS for custom styles
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v12 or higher)
+- npm (or yarn)
+
+### Steps to Run the Application Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MUrali09p/Role-Based-Access-Control-RBAC-UI.git
